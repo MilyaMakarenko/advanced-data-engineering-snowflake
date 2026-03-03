@@ -68,8 +68,9 @@ If you're taking the same course and want to follow along with the instructor:
     Fork this repository (don't clone directly – you'll want to make your own changes)
 
     Clone your fork locally:
+    
     ```
-        git clone https://github.com/your-username/advanced-data-engineering-snowflake.git
+    git clone https://github.com/your-username/advanced-data-engineering-snowflake.git
     ```
 
     Set up Snowflake integration (detailed in Module 1)
