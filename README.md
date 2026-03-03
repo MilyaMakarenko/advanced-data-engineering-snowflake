@@ -1,39 +1,101 @@
 ## Advanced Data Engineering with Snowflake
 
-#### How to use this repo throughout the course:
+#### Scripts from course 
 
-To successfully follow along with the instructor during the course, you'll need to make use of the code in this repo. To follow along, you can either:
+🚀 My Journey into Advanced Data Engineering
 
-* Keep the URL to this repo handy, so that you can easily find and use any code referenced by the instructor during the course
+This repository documents my progress through the "Advanced Data Engineering with Snowflake" course. It contains all the scripts, notes, and working files I created and used during my learning journey.
+What I Learned
 
-* Clone the repo to your local computing environment (required)
+Throughout this course, I mastered:
 
-> **Note:** There are a couple of exercises that make use of Snowflake's command line interface, Snowflake CLI. To successfully follow along during those exercises, you'll need to have the repo cloned to your local computing environment, so that the Snowflake CLI can make use of files and code within this repo.
+✅ DevOps Practices for Data Pipelines:
 
-#### How to clone the repo to your local computing environment:
+    Setting up Snowflake-GitHub integration for version control
 
-1. Fork the repo to create a copy associated with your GitHub Account: https://github.com/Snowflake-Labs/advanced-data-engineering-snowflake/fork
+    Declarative database object management with CREATE OR ALTER
 
-2. Clone your fork:
+    Working with feature branches and Pull Requests
 
-```bash
-git clone https://github.com/<your-GitHub-user-name>/modern-data-engineering-snowflake.git
-```
+    Configuring CI/CD via GitHub Actions for automated deployments
 
-Where `<your-GitHub-user-name>` is replaced by your GitHub user name. This workflow is covered in the course.
+✅ Working with Snowflake CLI:
 
-You can then open the repo in your preferred code editor. Throughout the course, the instructor will use Visual Studio Code as the code editor.
+    Executing snow git execute commands for environment deployment
 
-#### How to navigate this repo
+    Managing multiple environments (staging/production)
 
-All of the code that you need to successfully complete the course is within this repo. Each folder in this repo corresponds to a module in the online course.
+✅ Real-World Problem Solving:
 
-* **module-1** – Corresponds to "Module 1: DevOps with Snowflake" in the course.
+    Debugging authentication and access permission issues
 
-* **module-2** – Corresponds to "Module 2: Observability with Snowflake" in the course.
+    Fixing database name mismatches
 
-The course instructor will also be sure to reference the exact folder and name of the file to use throughout the course, so that you can follow along.
+    Configuring SSH keys and Personal Access Tokens
 
-#### Reporting issues or errata
+    Force-updating repository cache in Snowflake
 
-If you encounter technical issues with this code as you complete the course (i.e. typos, missing code, broken links, etc.), please report those issues in the course through Coursera. Ensure the issue contains sufficient detail so that it can be properly addressed.
+📁 Repository Structure
+
+The repository follows the course module structure:
+
+    module-1/ — DevOps with Snowflake
+
+        Building and managing data pipelines
+
+        Git integration
+
+        Declarative object management
+
+    module-2/ — Observability in Snowflake
+
+        Pipeline monitoring
+
+        Working with metrics and alerts
+
+Within each module, code is organized by workflow:
+
+    hamburg_weather/pipeline/ — core pipeline scripts
+
+    hamburg_weather/notebooks/ — Snowflake notebooks for development
+
+    hamburg_weather/streamlit/ — Streamlit app for visualization
+
+🔧 How to Use This Repository
+
+If you're taking the same course and want to follow along with the instructor:
+
+    Fork this repository (don't clone directly – you'll want to make your own changes)
+
+    Clone your fork locally:
+    
+    ```
+    git clone https://github.com/your-username/advanced-data-engineering-snowflake.git
+    ```
+
+    Set up Snowflake integration (detailed in Module 1)
+
+    Follow the instructor – all required files are in the corresponding folders
+
+    Important: For exercises using Snowflake CLI, you'll need the repo cloned locally.
+
+🐛 Common Issues & Solutions
+
+During my journey, I ran into several typical problems and found solutions:
+Issue	Solution
+Database 'WEATHER_SOURCE_LLC_FROSTBYTE' does not exist error	Replace with FROSTBYTE_WEATHERSOURCE in scripts or run ALTER GIT REPOSITORY ... FETCH
+Git push failing	Check remote: git remote -v, configure Personal Access Token
+GitHub Actions missing secrets	Add SNOWFLAKE_USER, SNOWFLAKE_PASSWORD, SNOWFLAKE_ACCOUNT in Settings → Secrets
+📝 Learning Notes
+
+    Module 1 is the most intense – be prepared for integration setup and debugging
+
+    Follow the Marketplace data installation instructions carefully – database naming matters
+
+    Don't hesitate to create feature branches and PRs even in a learning project – it reinforces the skills
+
+🤝 Feedback & Questions
+
+If you spot any errors in the code or have questions about the course, the best place to ask is on Coursera – the instructor and other students can help there.
+
+Happy data engineering! 🎉
