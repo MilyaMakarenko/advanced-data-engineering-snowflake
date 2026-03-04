@@ -4,6 +4,10 @@
 
 🚀 My Journey into Advanced Data Engineering
 
+My result
+<img width="1252" height="947" alt="image" src="https://github.com/user-attachments/assets/bf2a9a3b-40c5-4c22-8361-e33caf1c90ae" />
+
+
 This repository documents my progress through the "Advanced Data Engineering with Snowflake" course. It contains all the scripts, notes, and working files I created and used during my learning journey.
 What I Learned
 
@@ -99,3 +103,4 @@ GitHub Actions missing secrets	Add SNOWFLAKE_USER, SNOWFLAKE_PASSWORD, SNOWFLAKE
 If you spot any errors in the code or have questions about the course, the best place to ask is on Coursera – the instructor and other students can help there.
 
 Happy data engineering! 🎉
+
